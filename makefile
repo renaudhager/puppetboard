@@ -1,5 +1,4 @@
 NAME = renaudhager/puppetboard
-VERSION = v1.0.1
 
 GIT_TAG := $(shell git describe --abbrev=0 --tags --exact-match)
 

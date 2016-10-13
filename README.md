@@ -12,7 +12,7 @@ make
 - Start the container
 
 ```
-docker run -d renaudhager/pupppetboard:1.0.0
+docker run -d renaudhager/pupppetboard:1.0.1
 ```
 
 
@@ -20,5 +20,6 @@ docker run -d renaudhager/pupppetboard:1.0.0
 - `PUPPETDB_HOST` : FQDN to puppetdb. / OPTIONAL
 - `PUPPETDB_PORT` : Port used by puppetdb. / OPTIONAL
 - `LISTEN_PORT` : Port used by nginx. / OPTIONAL
+
 ## Limitation
 - HTTP only for now.
