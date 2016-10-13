@@ -5,7 +5,9 @@ MAINTAINER renaudhager
 ENV DEBIAN_FRONTEND=noninteractive \
     PUPPETBOARD_SETTINGS=/var/www/puppetboard/settings.py \
     PUPPETDB_HOST=puppetdb.service.vgt.consul \
-    PUPPETDB_PORT=80
+    PUPPETDB_PORT=80 \
+    LISTEN_PORT=9080
+
 
 RUN mkdir -p /var/www/puppetboard
 
